@@ -12,7 +12,7 @@ $$ language plpgsql;
 create or replace trigger trigger_valid_booking_dates
 before insert or update on BOOKINGS
 for each row
-execute function validate_booking_dates();
+execute function valid_booking_dates();
 
 -- обновление истории статусов комнат
 create or replace function update_room_status_history()
@@ -49,8 +49,8 @@ begin
 end;
 $$ language plpgsql;
 
-create or replace constraint trigger trigger_check_email
-after insert or update on clients
+create or replace trigger trigger_check_email
+before insert or update on clients
 for each row
 execute function check_email_unique();
 
