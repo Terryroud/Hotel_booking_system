@@ -1,0 +1,6 @@
+.env
+.coverage
+.project
+.analysis.txt.swp
+Scripts
+.dbeaver

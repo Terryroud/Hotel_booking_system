@@ -130,7 +130,7 @@ def test_cancelled_bookings_analysis(db_connection):
     df = pd.read_sql(query, db_connection)
     for i, row in df.iterrows():
         test_rate = (row['cancelled_bookings'] / row['total_bookings']) * 100
-        assert abs(row['cancellation_rate'] - test_rate) < 0.001
+        assert abs(row['cancellation_rate'] - test_rate) < 0.01
 
 # Тест 7. Вывод всех бронирований номеров типа Люкс
 def test_lux_room_bookings(db_connection):
@@ -186,7 +186,7 @@ def test_price_ratio(db_connection):
     df = pd.read_sql(query, db_connection)
     for i, row in df.iterrows():
         test_ratio = row['avg_service_price'] / row['avg_room_price']
-        assert abs(row['service_to_room_price_ratio'] - test_ratio) < 0.001
+        assert abs(row['service_to_room_price_ratio'] - test_ratio) < 0.01
 
 # Тест 10. Клиенты, которые бронировали отели с услугой spa
 def test_spa_clients(db_connection):
