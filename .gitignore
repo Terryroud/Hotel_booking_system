@@ -1,6 +1,7 @@
-.env
+test_init/.env
 .coverage
 .project
 .analysis.txt.swp
 Scripts
 .dbeaver
+__pycache__
