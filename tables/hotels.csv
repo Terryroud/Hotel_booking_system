@@ -1,0 +1,33 @@
+hotel_id,name,stars,city,email
+1,Grand Hotel,5,Москва,grand@example.com
+2,Aurora Resort,4,Сочи,aurora@example.com
+3,Northern Lights,3,Санкт-Петербург,northern@example.com
+4,Golden Palace,5,Казань,golden@example.com
+5,Sunrise Beach,4,Ялта,sunrise@example.com
+6,Cosmos Hotel,3,Новосибирск,cosmos@example.com
+7,Imperial Plaza,5,Екатеринбург,imperial@example.com
+8,Forest Retreat,4,Владивосток,forest@example.com
+9,Ocean View,3,Калининград,ocean@example.com
+10,Mountain Peak,4,Красноярск,mountain@example.com
+11,Central Inn,3,Ростов-на-Дону,central@example.com
+12,Paradise Resort,5,Самара,paradise@example.com
+13,Royal Garden,4,Уфа,royal@example.com
+14,Silver Sands,3,Волгоград,silver@example.com
+15,Emerald Hotel,4,Пермь,emerald@example.com
+16,Sunset Lodge,3,Воронеж,sunset@example.com
+17,Prestige Towers,5,Краснодар,prestige@example.com
+18,Harmony Suites,4,Тюмень,harmony@example.com
+19,Lighthouse Inn,3,Иркутск,lighthouse@example.com
+20,Victory Hotel,4,Хабаровск,victory@example.com
+21,Oasis Resort,5,Севастополь,oasis@example.com
+22,Mirage Palace,4,Омск,mirage@example.com
+23,Alpine Lodge,3,Томск,alpine@example.com
+24,Metropol,5,Челябинск,metropol@example.com
+25,Laguna Beach,4,Белгород,laguna@example.com
+26,Park Plaza,3,Ставрополь,park@example.com
+27,Ritz Carlton,5,Владикавказ,ritz@example.com
+28,Harbor View,4,Махачкала,harbor@example.com
+29,Sunflower Inn,3,Петрозаводск,sunflower@example.com
+30,Glacier Hotel,4,Мурманск,glacier@example.com
+31,Moscow Nights,5,Москва,moscow@example.com
+32,Black Sea Pearl,4,Геленджик,pearl@example.com
