@@ -5,3 +5,4 @@ test_init/.env
 Scripts
 .dbeaver
 __pycache__
+.env
